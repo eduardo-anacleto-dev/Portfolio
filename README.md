@@ -1,4 +1,4 @@
 # Hello World
 primeiro repositorio versionado
 
-Repositorio criado par um curso de aprendizado
+Repositorio criado para um curso de aprendizado!
