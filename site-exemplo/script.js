@@ -10,4 +10,3 @@ if (cores === 'Claro'){
     document.body.style.backgroundColor = 'rgb(77, 77, 77)'
     document.body.style.color = 'white'
 }
-
