@@ -27,7 +27,7 @@ body{
     line-height: 1.4;        /* melhora leitura */
     hyphens: auto;           /* quebra palavras corretamente */
 }
-a{
+a, #copiaveis{
     display: block;
     flex-direction: column;
     box-sizing: border-box;
@@ -44,9 +44,14 @@ a{
     text-decoration: none;
     border-radius: 5px;
 }
+
 a:hover{
     background: rgba(54, 46, 39, 0.507);
     border-color: rgb(182, 87, 24);
+}
 
+a:hover, #copiaveis:hover{
+    background: rgba(54, 46, 39, 0.507);
+    border-color: rgb(236, 120, 42);
 
 }
