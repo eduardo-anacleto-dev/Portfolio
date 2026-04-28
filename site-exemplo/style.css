@@ -45,7 +45,8 @@ a{
     border-radius: 5px;
 }
 a:hover{
-    background: rgba(224, 193, 168, 0.356);
-    border-color: rgb(236, 120, 42) ;
+    background: rgba(54, 46, 39, 0.507);
+    border-color: rgb(182, 87, 24);
+
 
 }
