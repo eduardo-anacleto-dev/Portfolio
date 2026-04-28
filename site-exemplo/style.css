@@ -19,13 +19,14 @@ body{
 #aboutme{
     justify-content: center;
     font: normal 20px arial;
-    width: 750px;
+    width: 550px;
     padding: 1%;
     border-radius: 9px;
     font-family: 'Inter', sans-serif;
     text-align: justify;
     line-height: 1.4;        /* melhora leitura */
-    hyphens: auto;           /* quebra palavras corretamente */
+    hyphens: auto;        /* quebra palavras corretamente */
+    margin-right:30px;
 }
 a, #copiaveis{
     display: block;
@@ -53,5 +54,22 @@ a:hover{
 a:hover, #copiaveis:hover{
     background: rgba(54, 46, 39, 0.507);
     border-color: rgb(236, 120, 42);
+}
 
+#minhafoto{
+    height:400px;
+    width: 380px;
+    border: 10px solid rgba(29, 26, 26, 0.39);
+}
+
+.me{
+    display:inline-flex;
+    gap:200px;
+}
+
+#quemsoueu{
+    font-size: 75px;
+    margin: 0 auto;
+    font-style: italic;
+    color: rgb(190, 163, 38);
 }
