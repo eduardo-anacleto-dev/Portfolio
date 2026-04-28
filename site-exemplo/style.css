@@ -7,18 +7,15 @@ img{
     height: 400px;
     margin: auto;
 }
-
 h1{
     font-family:'DM Serif Disdplay' , serif;    align-items: center;
     font-size: 60px;
     letter-spacing: -.02em;
 }
-
 body{
     background-color:rgb(77, 77, 77); 
     margin-left: 120px;
 }
-
 #aboutme{
     justify-content: center;
     font: normal 20px arial;
@@ -30,8 +27,7 @@ body{
     line-height: 1.4;        /* melhora leitura */
     hyphens: auto;           /* quebra palavras corretamente */
 }
-
-a{
+a, #copiaveis{
     display: block;
     flex-direction: column;
     box-sizing: border-box;
@@ -50,10 +46,12 @@ a{
 }
 
 a:hover{
-    background: rgba(224, 193, 168, 0.356);
-    border-color: rgb(236, 120, 42) ;
-
+    background: rgba(54, 46, 39, 0.507);
+    border-color: rgb(182, 87, 24);
 }
 
+a:hover, #copiaveis:hover{
+    background: rgba(54, 46, 39, 0.507);
+    border-color: rgb(236, 120, 42);
 
-
+}
