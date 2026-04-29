@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 img{
     justify-content: center;
     align-items: center;
@@ -7,20 +13,25 @@ img{
     height: 400px;
     margin: auto;
 }
+
 h1{
     font-family:'DM Serif Disdplay' , serif;    align-items: center;
     font-size: 60px;
     letter-spacing: -.02em;
+    margin: 30px;
+    margin-left: 0;
 }
-body{
-    background-color:rgb(77, 77, 77); 
-    margin-left: 120px;
+
+main{
+    margin-left: 80px;
 }
-#aboutme{
+.aboutme{
     justify-content: center;
     font: normal 20px arial;
     width: 550px;
+    width: 750px;
     padding: 1%;
+    max-width: 550px;
     border-radius: 9px;
     font-family: 'Inter', sans-serif;
     text-align: justify;
@@ -28,6 +39,7 @@ body{
     hyphens: auto;        /* quebra palavras corretamente */
     margin-right:30px;
 }
+
 a, #copiaveis{
     display: block;
     flex-direction: column;
@@ -67,9 +79,39 @@ a:hover, #copiaveis:hover{
     gap:200px;
 }
 
+#minhafoto{
+    height:380px;
+    width: 380px;
+    border: 10px solid rgba(29, 26, 26, 0.39);
+}
+
+.home{
+    display: inline-flex;
+    justify-content:space-around;
+    align-items: baseline;
+    gap: 150px;
+}
+
 #quemsoueu{
     font-size: 75px;
     margin: 0 auto;
     font-style: italic;
     color: rgb(190, 163, 38);
+}
+
+
+.navbar{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(90, 63, 63, 0.623);
+    padding: 20px;
+    width: 100%;
+}
+.links{
+    display: flex;
+    list-style:none;
+    gap: 50px;
+    margin-left:75px;
+    font-size: 20px;
 }
