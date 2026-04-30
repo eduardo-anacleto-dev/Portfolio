@@ -98,8 +98,21 @@ a:hover, #copiaveis:hover{
     font-style: italic;
     color: rgb(190, 163, 38);
 }
-
-
+.navbar{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(90, 63, 63, 0.623);
+    padding: 20px;
+    width: 100%;
+}
+.links{
+    display: flex;
+    list-style:none;
+    gap: 50px;
+    margin-left:75px;
+    font-size: 20px;
+}
 .navbar{
     display:flex;
     align-items: center;
@@ -119,3 +132,8 @@ a:hover, #copiaveis:hover{
 .dark,.light:hover{
     cursor: pointer;
 }
+
+.dark,.light:hover{
+    cursor: pointer;
+}
+
