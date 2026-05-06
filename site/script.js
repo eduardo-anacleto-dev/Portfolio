@@ -7,7 +7,7 @@ btnDark.addEventListener('click' , (e) => {
 
 const btnLight = document.querySelector('.light')
 btnLight.addEventListener('click' , (e) => {
-    document.body.style.backgroundColor = 'rgb(241, 235, 220)'
+    document.body.style.backgroundColor = ''
     document.body.style.color = 'rgb(77, 77, 77)'
 })
 
